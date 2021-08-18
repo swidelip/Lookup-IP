@@ -51,7 +51,7 @@ if __name__ == '__main__':
         print('\n{~} Sending request ...', end='')
         starttime = time.time()
         print(lookup(usrIP))
-        print('\n{0} Estimated time: {1}'.format(_PREFIX, str(time.time() - starttime)))
+        print('\n{0} Elapsed time: {1}'.format(_PREFIX, str(time.time() - starttime)))
     except KeyboardInterrupt:
         print('\nKeyboardInterrupt')
         quit()
